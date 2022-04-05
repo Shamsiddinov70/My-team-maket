@@ -596,6 +596,10 @@
     }
 
     /* intro  */
+    .intro__content {
+        margin-left: 10px;
+    }
+
     .intro__line {
         display: none;
     }
@@ -707,6 +711,9 @@
     }
 
     /* intro  */
+    .intro__content {
+        margin-left: 10px;
+    }
     .intro__title {
         line-height: 40px;
         font-size: 40px;
@@ -762,16 +769,11 @@
         margin-left: -50px;
     }
 
-    .build__line {
-        margin-left: -151px;
-    }
-
     .build__left-title {
         line-height: 32px;
         width: 240px;
         left: 0;
         font-size: 32px;
-        margin-left: -150px;
     }
 
     .build__right1 {
