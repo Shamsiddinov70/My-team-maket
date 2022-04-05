@@ -712,7 +712,7 @@
 
     /* intro  */
     .intro__content {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     .intro__title {
         line-height: 40px;
