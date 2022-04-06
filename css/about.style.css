@@ -44,58 +44,155 @@
 .meet {
     background-color: var(--second-deep-blue);
     padding-top: 140px;
-    padding-bottom: 86px;
+    padding-bottom: 92px;
+}
+
+.meet {
+    background-image: url(../images/meet-bg-img1.png),url(../images/meet-bg-img2.png);
+    background-repeat: no-repeat;
+    background-position: left calc(50% - 670px) top, right calc(50% - 670px)  bottom;
 }
 
 .meet__title {
-    font-weight: 700;
-    text-align: center;
     font-size: 48px;
     line-height: 48px;
+    text-align: center;
     color: var(--main-white);
     margin-bottom: 64px;
 }
 
-.meet__cards {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-
-}
-
-.meet__cards-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .meet__list {
-    background-color: var(--second-state-green);
-    width: 340px;
-    text-align: center;
-    /* margin-right: 15px; */
-    margin-bottom: 76px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .meet__item {
+    background-color: var(--second-state-green);
+    width: 350px;
+    text-align: center;
     padding-top: 32px;
     padding-bottom: 56px;
+    margin-bottom: 76px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.meet__item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.meet__item::after {
+    content: '';
+    background-image: url(../images/meet-build-img.svg);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    color: var(--second-state-green);
+    position: absolute;
+    top: 230px;
+    background-color: var(--main-coral);
+    padding: 20px;
+    border-radius: 50%;
+    background-position: center;
+    left: 155px;
+}
+
+.meet__item-last:after {
+    content: '';
+    background-image: url(../images/meet-x-img.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    color: var(--second-state-green);
+    position: absolute;
+    top: 230px;
+    background-color: var(--second-light-blue);
+    padding: 20px;
+    border-radius: 50%;
+    background-position: center;
+    left: 155px;
 }
 
 .meet__user-img {
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 16px;
 }
 
-.meet__cards-username {
-    font-size: 18px;
+.meet__username {
     line-height: 28px;
+    text-align: center;
+    font-size: 18px;
     color: var(--second-light-blue);
-    font-weight: 700;
 }
 
-.meet__cards-userjob {
+.meet__userjob {
+    line-height: 25px;
+    text-align: center;
+    color: var(--main-white);
+    font-size: 15px;
+}
+
+.mi__last-username {
+    margin-bottom: 8px;
+}
+
+.meet__user-status {
     line-height: 25px;
     color: var(--main-white);
     font-size: 15px;
+    margin-bottom: 24px;
+    width: 254px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meet__icon {
+    color: var(--main-white);
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: 0.2s ease;
+}
+
+.meet__icon:hover {
+    color: var(--main-coral);
+}
+/* meet end  */
+
+
+/* clients  */
+.clients {
+    background-color: var(--second-state-green);
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background-image: url(../images/clients-bg.svg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% - 670px) top;
+}
+
+.clients__title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--main-white);
+    margin-bottom: 70px;
+}
+
+.clients__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.clients__link {
+    transition: 0.2s ease;
+    color: var(--main-white);
+}
+
+.clients__link:hover {
+    opacity: 0.7;
 }
