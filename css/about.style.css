@@ -1,0 +1,101 @@
+/* intro start  */
+.about-intro {
+    padding-top: 164px;
+    padding-bottom: 235px;
+    background-image: url(../images/about-intro-png.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: right calc(50% - 680px) bottom;
+}
+
+.about-intro__content {
+    display: flex;
+}
+
+.about-intro__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: var(--main-white);
+    margin-right: 185px;
+}
+
+.about-intro__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    width: 730px;
+    color: var(--main-white);
+    position: relative;
+}
+
+.about-intro__text::before {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: var(--main-coral);
+    position: absolute;
+    top: -40px;
+}
+/* intro end  */
+
+
+/* meet start  */
+.meet {
+    background-color: var(--second-deep-blue);
+    padding-top: 140px;
+    padding-bottom: 86px;
+}
+
+.meet__title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--main-white);
+    margin-bottom: 64px;
+}
+
+.meet__cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+.meet__cards-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.meet__list {
+    background-color: var(--second-state-green);
+    width: 340px;
+    text-align: center;
+    /* margin-right: 15px; */
+    margin-bottom: 76px;
+}
+
+.meet__item {
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.meet__user-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.meet__cards-username {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--second-light-blue);
+    font-weight: 700;
+}
+
+.meet__cards-userjob {
+    line-height: 25px;
+    color: var(--main-white);
+    font-size: 15px;
+}

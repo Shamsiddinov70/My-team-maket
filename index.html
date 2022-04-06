@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -35,22 +36,24 @@
                 height="40">
             </a>
             <nav class="navbar nav-open">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#" class="header__link">
-                            home
-                        </a>
-                    </li>
-                </ul>
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#" class="header__link">
-                            about
-                        </a>
-                    </li>
-                </ul>
+                <div class="header__nav-wrap">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="index.html" class="header__link">
+                                home
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="about.html" class="header__link">
+                                about
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-            <a href="#" class="contact-link">
+            <a href="contact.html" class="contact-link">
                 contact us
             </a>
             <button class="header__btn toggle toggle-close">
@@ -82,7 +85,7 @@
         <!-- intro end  -->
 
         <!-- build start  -->
-          <section class="build">
+           <section class="build">
             <div class="build__all container">
                 <div class="build__left">
                     <hr class="build__line">
@@ -121,7 +124,7 @@
         <!-- build End  -->
 
         <!-- success start  -->
-          <section class="success">
+           <section class="success">
             <div class="success__main container">
                 <h4 class="success__title">
                     Delivering real results for top companies. Some of our <span class="success__title-span">success stories.</span>
@@ -193,14 +196,14 @@
         <!-- success end  -->
 
         <!-- ready start  -->
-         <section class="ready">
+          <section class="ready">
             <div class="ready__content container">
-                <h5 class="ready__title">
-                    Ready to get started?
-                </h5>
-                <a href="#" class="ready__link">
-                    contact us
-                </a>
+                    <h5 class="ready__title">
+                        Ready to get started?
+                    </h5>
+                    <a href="#" class="ready__link">
+                        contact us
+                    </a>
             </div>
         </section>
         <!-- ready end  -->
@@ -289,7 +292,7 @@
 
 
     <!-- footer for mobile  -->
-    <footer class="footer__mb">
+     <footer class="footer__mb">
         <div class="footer__mb-all container">
             <a href="#" class="footer__mb-logo">
                 <img class="footer__mb-logo-img" src="./images/myteam-logo.svg" alt="logo" width="96" height="24">
