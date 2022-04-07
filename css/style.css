@@ -19,7 +19,6 @@
     background-color: var(--main-white);
     position: relative;
     z-index: 3;
-    position: fixed;
 }
 
 .toggle__line::before {
@@ -505,6 +504,7 @@
     .toggle-close
     .toggle__line {
         transform: rotate(45deg);
+        position: fixed;
     }
 
     .toggle-close
