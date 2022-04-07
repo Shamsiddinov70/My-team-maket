@@ -18,6 +18,8 @@
     height: 3px;
     background-color: var(--main-white);
     position: relative;
+    z-index: 3;
+    position: fixed;
 }
 
 .toggle__line::before {
@@ -445,7 +447,7 @@
         top: 0;
         width: 70%;
         flex-direction: column;
-        z-index: 0;
+        z-index: 2;
         display: none;
     }
 

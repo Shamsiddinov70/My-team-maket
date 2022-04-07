@@ -50,7 +50,7 @@
 .meet {
     background-image: url(../images/meet-bg-img1.png),url(../images/meet-bg-img2.png);
     background-repeat: no-repeat;
-    background-position: left calc(50% - 670px) top, right calc(50% - 720px)  bottom;
+    background-position: left calc(50% - 720px) top, right calc(50% - 695px) bottom;
 }
 
 .meet__title {
@@ -195,4 +195,36 @@
 
 .clients__link:hover {
     opacity: 0.7;
+}
+
+/* media  */
+@media only screen and (max-width: 768px) {
+
+.about-intro {
+    padding-top: 122px;
+    padding-bottom: 347px;
+    background-position: right calc(50% - 335px) bottom;
+}
+.about-intro__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-intro__title {
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.about-intro__text {
+    line-height: 28px;
+    width: 457px;
+    font-size: 15px;
+}
+
+.about-intro__text::before {
+    display: none;
+}
+
 }
