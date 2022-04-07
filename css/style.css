@@ -282,6 +282,9 @@
 
 /* for laptops  */
 @media only screen and (max-width: 1170px) {
+    .success {
+        background-position: left calc(50% - 512px) top,right calc(50% - 485px) bottom
+    }
 
     .success__title {
         font-size: 40px;
@@ -297,8 +300,6 @@
         width: 300px;
     }
 }
-
-
 
 /* for tablets  */
 @media only screen and (max-width: 1024px) {
@@ -352,6 +353,10 @@
     }
 
     /* success  */
+    .success {
+        background-position: left calc(50% - 445px) top,right calc(50% - 413px) bottom;
+    }
+
     .success__cards {
         flex-direction: column;
     }
@@ -403,7 +408,11 @@
   }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 651px) {
+    .success {
+        background-position: left calc(50% - 252px) top,right calc(50% - 225px) bottom;
+    }
+
     .success__title {
         width: 500px;
     }
@@ -560,6 +569,10 @@
     }
 
     /* success  */
+    .success {
+        background-position: left calc(50% - 227px) top,right calc(50% - 200px) bottom;
+    }
+
     .success__title {
         line-height: 32px;
         width: 327px;
@@ -611,6 +624,10 @@
 
     .intro__right-bg {
         height: 75px;
+    }
+
+    .success {
+        background-position: left calc(50% - 107px) top,right calc(50% - 80px) bottom;
     }
 
     .success__item-wrapper::before {
@@ -725,7 +742,12 @@
     .build__right3::before {
         left: 33%;
     }
+
     /* success  */
+    .success {
+        background-position: left calc(50% - 82px) top,right calc(50% - 54px) bottom;
+    }
+
     .success__title {
         line-height: 24px;
         width: 250px;
@@ -744,7 +766,6 @@
 
 
 @media only screen and (max-width: 280px) {
-
     .header__logo {
         width: 100px;
         height: 28px;
@@ -759,6 +780,10 @@
         line-height: 26px;
         font-size: 26px;
         width: 230px;
+    }
+
+    .success {
+        background-position: left calc(50% - 67px) top,right calc(50% - 40px) bottom;
     }
 
     .success__item-wrapper::before {
@@ -812,7 +837,6 @@
         line-height: 26px;
     }
 }
-
 
 
 
