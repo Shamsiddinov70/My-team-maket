@@ -165,3 +165,147 @@
     opacity: 0.6;
 }
 /* footer desktop end */
+
+
+
+/* footer tablet start  */
+.footer__md {
+    background-color: var(--second-dark-green);
+    padding: 56px 56px;
+    display: none;
+}
+
+.footer__md-all {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer__md-logo {
+    margin-bottom: 53px;
+}
+
+.footer__md-mini-links {
+    margin-bottom: 33px;
+}
+
+.footer__md-mini-link {
+    color: var(--main-white);
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 24px;
+    transition: 0.2s ease;
+    font-weight: 600;
+}
+
+.footer__md-mini-link:hover:hover {
+    color: #F67E7E;
+}
+
+.footer__md-icon {
+    color: var(--main-white);
+    margin-right: 16px;
+    transition: 0.2s ease;
+}
+
+.footer__md-icon:hover {
+    cursor: pointer;
+    color: var(--main-coral);
+}
+
+.footer__md-info {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-white);
+    text-align: right;
+    opacity: 0.6;
+}
+
+.footer__md-information {
+    margin-bottom: 34px;
+    margin-right: 0;
+}
+/* footer tablet end  */
+
+
+/* footer for mobiles  */
+.footer__mb {
+    background-color: var(--second-dark-green);
+    padding: 65px 65px;
+    display: none;
+}
+
+.footer__mb-all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.footer__mb-logo {
+    margin-bottom: 24px;
+}
+
+.footer__mb-mini-links {
+    margin-bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__mb-mini-link {
+    color: var(--main-white);
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: 0.2s ease;
+}
+
+.footer__mb-mini-link:hover:hover {
+    color: var(--main-coral);
+}
+
+.footer__mb-icons {
+    margin-bottom: 18px;
+}
+
+.footer__mb-icon {
+    color: var(--main-white);
+    margin-right: 16px;
+    transition: 0.2s ease;
+}
+
+.footer__mb-icon:hover {
+    cursor: pointer;
+    color: var(--main-coral);
+}
+
+.footer__mb-information {
+    margin-bottom: 34px;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-white);
+    opacity: 0.6;
+}
+
+.footer__mb-text {
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-white);
+    opacity: 0.6;
+}
+
+/* for tablets  */
+@media only screen and (max-width: 1024px) {
+    /* header  */
+    .header__logo {
+        width: 127px;
+        height: 32px;
+    }
+
+    .site-logo {
+        margin-right: 48px;
+    }
+}

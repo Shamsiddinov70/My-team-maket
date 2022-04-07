@@ -5,7 +5,7 @@
     background-image: url(../images/about-intro-png.png);
     background-repeat: no-repeat;
     height: 200px;
-    background-position: right calc(50% - 680px) bottom;
+    background-position: right calc(50% - 720px) bottom;
 }
 
 .about-intro__content {
@@ -50,7 +50,7 @@
 .meet {
     background-image: url(../images/meet-bg-img1.png),url(../images/meet-bg-img2.png);
     background-repeat: no-repeat;
-    background-position: left calc(50% - 670px) top, right calc(50% - 670px)  bottom;
+    background-position: left calc(50% - 670px) top, right calc(50% - 720px)  bottom;
 }
 
 .meet__title {
