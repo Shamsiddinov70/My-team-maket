@@ -1,7 +1,8 @@
-var toggleBtn = document.querySelector('.toggle')
-var elNav = document.querySelector('.navbar')
+let toggleBtn = document.querySelector('.toggle');
+let elNav = document.querySelector('.navbar')
 
-toggleBtn.addEventListener('click' , function (evt) {
-elNav.classList.toggle('nav-open')
-toggleBtn.classList.toggle('toggle-close')
-})
+
+toggleBtn.addEventListener('click', () => {
+    elNav.classList.toggle('nav-open')
+    toggleBtn.classList.toggle('toggle-close')
+  })
